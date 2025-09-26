@@ -110,8 +110,8 @@ button.wrong { background: #f44336; animation: shake 0.3s; } /* red */
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;          /* full viewport width */
-  height: 100vh;         /* full viewport height */
+  width: 100%;          /* full viewport width */
+  height: 100%;         /* full viewport height */
   background: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay */
   display: flex;
   justify-content: center;  /* horizontal centering */
@@ -135,7 +135,7 @@ button.wrong { background: #f44336; animation: shake 0.3s; } /* red */
   border-radius: 16px;
   text-align: center;
   min-width: 280px;
-  max-width: 90%;
+  max-width: 60%;
   box-shadow: 0 8px 24px rgba(0,0,0,0.3);
   animation: popupBounce 0.4s ease;
 }
