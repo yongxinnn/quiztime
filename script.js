@@ -58,10 +58,10 @@ function selectAnswer(button, index) {
   if (index === q.answer) {
     score++;
     button.classList.add("correct");
-    popupText.textContent = "✅ Correct!";
+    popupText.textContent = "Correct! 😁";
   } else {
     button.classList.add("wrong");
-    popupText.textContent = `❌ Wrong! The correct answer is: ${q.options[q.answer]}`;
+    popupText.textContent = `Wrong! 😟 The correct answer is: ${q.options[q.answer]}`;
   }
 
   // Show the popup

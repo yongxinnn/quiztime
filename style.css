@@ -37,7 +37,7 @@ p { font-size: 1rem; margin-bottom: 20px; text-align: center; }
   font-size: 1rem;
   margin-bottom: 15px;
   line-height: 1.4;
-  width: 100%;
+  width: 80%;
   max-width: 700px;
   word-wrap: break-word; /* wrap text instead of stretching container */
 }
@@ -45,7 +45,7 @@ p { font-size: 1rem; margin-bottom: 20px; text-align: center; }
 /* Buttons for options */
 button {
   display: block;
-  width: 300px;
+  width: 70%;
   margin: 8px auto;
   padding: 12px;
   min-height: 50px;         /* ensures consistent base height */
@@ -68,13 +68,13 @@ button {
 button:hover { transform: scale(1.05); }
 
 #start-btn {
-  width: 300px;              /* narrower */
+  width: 60%;              /* narrower */
   margin: 12px auto;       /* center horizontally */
   background: linear-gradient(90deg, #ebdbff, #c4cffa);
 }
 
 #next-btn {
-  width: 300px;              
+  width: 60%;              
   margin: 12px auto;       /* center horizontally */
   background: linear-gradient(90deg, #7300ff, #c4cffa);
   color: #ffffff;   /* force text white */
