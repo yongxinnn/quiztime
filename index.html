@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PDPA Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Cover page -->
+  <div id="cover-page">
+    <h1>🎉 PDPA Quiz 🎉</h1>
+    <p>Test your knowledge of PDPA!</p>
+    <button id="start-btn">Press to Start</button>
+  </div>
+
+  <!-- Quiz container -->
+  <div id="quiz-container" class="hidden">
+    <div id="quiz"></div>
+    <div id="feedback" class="hidden"></div>
+    <button id="next-btn" class="hidden">Next</button>
+    <div id="result" class="hidden"></div>
+  </div>
+
+  <!-- Full-screen feedback popup -->
+  <div id="feedback-popup">
+    <div class="popup-card">
+      <p id="popup-text"></p>
+      <button id="popup-next-btn">Next</button>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
