@@ -1,5 +1,8 @@
 body {
-  background: linear-gradient(to bottom, #fff7ff, #c2e5e8);
+  background-image: url("background.png"); /* change to your file name */
+  background-size: cover;      /* makes it cover the whole screen */
+  background-position: center; /* keeps it centered */
+  background-repeat: no-repeat;/* prevents tiling */
   margin: 0;
   padding: 0;
   display: flex;
@@ -9,7 +12,7 @@ body {
   flex-direction: column;   /* stack cover/quiz vertically */
 }
 
-body, h1, h2, p, button, #feedback, #result {
+body, h1, p, button, #feedback, #result {
   font-family: 'Fira Code', monospace;
 }
 
@@ -20,7 +23,7 @@ p { font-size: 1rem; margin-bottom: 20px; text-align: center; }
   background: #fff;
   padding: 20px;
   border-radius: 16px;
-  width: 70%;
+  width: 65%;
   max-width: 360px;
   margin: 0 auto;           /* horizontally centered */
   text-align: center;
@@ -34,10 +37,11 @@ p { font-size: 1rem; margin-bottom: 20px; text-align: center; }
 }
 
 #quiz h2 {
+  color: #fff;
   font-size: 1rem;
   margin-bottom: 15px;
   line-height: 1.4;
-  width: 70%;
+  width: 65%;
   max-width: 700px;
   word-wrap: break-word; /* wrap text instead of stretching container */
 }
@@ -52,7 +56,7 @@ button {
   max-height: 70px;         /* cap so very long text doesn’t blow it up */
   border: none;
   border-radius: 12px;
-  background: linear-gradient(90deg, #a29aff, #c4cffa);
+  background: linear-gradient(90deg, #37BEB0, #c4cffa);
   color: #fff;
   font-weight: bold;
   font-size: 14px;
@@ -70,15 +74,7 @@ button:hover { transform: scale(1.05); }
 #start-btn {
   width: 60%;              /* narrower */
   margin: 12px auto;       /* center horizontally */
-  background: linear-gradient(90deg, #ebdbff, #c4cffa);
-}
-
-#next-btn {
-  width: 60%;              
-  margin: 12px auto;       /* center horizontally */
-  background: linear-gradient(90deg, #7300ff, #c4cffa);
-  color: #ffffff;   /* force text white */
-  font-weight: bold;
+  background: linear-gradient(90deg, #37BEB0, #c4cffa);
 }
 
 button.correct { background: #4caf50; } /* green */
@@ -135,7 +131,6 @@ button.wrong { background: #f44336; animation: shake 0.3s; } /* red */
   border-radius: 16px;
   text-align: center;
   min-width: 60%;
-  max-width: 80%;
   box-shadow: 0 8px 24px rgba(0,0,0,0.3);
   animation: popupBounce 0.4s ease;
 }
@@ -153,7 +148,7 @@ button.wrong { background: #f44336; animation: shake 0.3s; } /* red */
   padding: 10px 16px;
   border: none;
   border-radius: 12px;
-  background: linear-gradient(90deg, #7300ff, #9fb3ff);
+  background: linear-gradient(90deg, #a4e5e0, #9fb3ff);
   color: #fff;
   font-weight: bold;
   cursor: pointer;
